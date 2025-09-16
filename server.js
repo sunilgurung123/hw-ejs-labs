@@ -92,5 +92,10 @@ app.get('/menu/:category', (req, res) => {
     menuItems
   });
 });
+// tested route 
+//localhost:300/menu/mains
+//localhost:300/menu/desserts
+//localhost:300/menu/sides
+
 
 app.listen(3000);
